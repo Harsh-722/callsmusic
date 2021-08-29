@@ -24,10 +24,10 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        '🎧 Assistant', url='https://t.me/AlphaMusicAssistant7',
+                        '🔱 𝗢𝗪𝗡𝗘𝗥 🔱', url='https://t.me/Harsh_722',
                     ),
                     InlineKeyboardButton(
-                        '🔱 𝗢𝗪𝗡𝗘𝗥 🔱', url='https://t.me/Harsh_722',
+                        '🎧 Assistant 🎧', url='https://t.me/AlphaMusicAssistant7',
                     ),
                 ],
             ],
