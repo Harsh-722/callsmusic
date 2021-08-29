@@ -27,7 +27,7 @@ async def start(_, message: Message):
                         '🎧 Assistant', url='https://t.me/AlphaMusicAssistant7',
                     ),
                     InlineKeyboardButton(
-                        'Group 💬', url='https://t.me/friends_era143',
+                        '🔱 𝗢𝗪𝗡𝗘𝗥 🔱', url='https://t.me/Harsh_722',
                     ),
                 ],
             ],
