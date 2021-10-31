@@ -1,11 +1,11 @@
 from os import path
 
-from youtube_dl import YoutubeDL
+from yt_dlp import YoutubeDL
 
 from ..config import DURATION_LIMIT
 from ..helpers.errors import DurationLimitError
 
-ytdl = YoutubeDL(
+ydl = YoutubeDL(
     {
         'format': 'bestaudio/best',
         'geo-bypass': True,
@@ -23,5 +23,5 @@ def download(url: str) -> str:
             f'Videos longer than {DURATION_LIMIT} minute(s) are not allowed, '
             f'the provided video is {duration} minute(s)',
         )
-    ytdl.download([url])
+    ydl.download([url])
     return path.join('downloads', f"{info['id']}.{info['ext']}")
